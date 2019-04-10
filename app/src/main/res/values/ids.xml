@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="gride_view" type="id">gride_view</item>
+    <item name="picture_list" type="id">picture_list</item>
+    <item name="text_list" type="id">text_list</item>
+    <item name="listView" type="id">listView</item>
+    <item name="picture" type="id">picture</item>
+</resources>
