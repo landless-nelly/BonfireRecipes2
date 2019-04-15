@@ -5,4 +5,9 @@
     <item name="text_list" type="id">text_list</item>
     <item name="listView" type="id">listView</item>
     <item name="picture" type="id">picture</item>
+    <item name="nav_about" type="id">nav_about</item>
+    <item name="nav_more" type="id">nav_more</item>
+    <item name="nav_rate_us" type="id">nav_rate_us</item>
+    <item name="nav_favorite" type="id">nav_favourite</item>
+    <item name="nav_category" type="id">nav_category</item>
 </resources>

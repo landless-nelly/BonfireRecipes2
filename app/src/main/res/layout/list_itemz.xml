@@ -24,7 +24,7 @@
             android:layout_gravity="bottom|center_horizontal"
             android:gravity="center_horizontal"
             android:textColor="@android:color/white"
-            android:background="#55000000"/>
+            android:background="@drawable/background"/>
 
 
     </FrameLayout>

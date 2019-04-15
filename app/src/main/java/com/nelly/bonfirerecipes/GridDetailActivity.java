@@ -33,14 +33,14 @@ public class GridDetailActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Emnzy Recipe App", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Bonfire Recipe App", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
 
 
         // Set tile for the ViewPager
-        setTitle(" Grid Details Activity ");
+        setTitle(" GridDetailActivity ");
 
         // get intent data
         Intent i = getIntent();
@@ -56,9 +56,6 @@ public class GridDetailActivity extends AppCompatActivity {
             ImageView imageView = new ImageView(this);
             imageView.setImageResource(gridAdapter.mThumbIds[position]);
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-
-
-
 
             mItems.add(imageView);
         }

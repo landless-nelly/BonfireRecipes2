@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.nelly.bonfirerecipes">
 
     <application
@@ -10,17 +11,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
+
                 <action android:name="android.intent.action.MAIN" />
 
+                    tools:ignore="WrongManifestParent" />
                 <category android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
         </activity>
-        <activity android:name=".GridFragment" />
-        <activity android:name=".GridDetailActivity"></activity>
+        <activity android:name=".GridDetailActivity" />
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".RegisterActivity" ></activity>
     </application>
 
 </manifest>

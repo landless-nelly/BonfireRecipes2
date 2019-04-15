@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo"
+        />
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#f2f1ed"
+        android:drawableLeft="@drawable/username5"
+        android:hint="USERNAME" />
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#f3f4ee"
+        android:drawableLeft="@drawable/password3"
+        android:hint="PASSWORD" />
+
+    <Button
+        android:id="@+id/Button_signin"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ecece9"
+        android:drawableLeft="@drawable/sign"
+
+        android:text="SIGNIN" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingLeft="10dp"
+            android:text="NOT_REGISTERED"
+            android:textColor="#f6faff"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edittext_Register"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingLeft="10dp"
+            android:text="REGISTER"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
